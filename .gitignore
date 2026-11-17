@@ -1,0 +1,110 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,c
+# Editar en https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,c
+
+### C ###
+# Requisitos previos
+*.d
+
+# Archivos de objeto
+*.o
+*.ko
+*.obj
+*.elf
+
+# Salida del enlazador
+*.ilk
+*.map
+*.exp
+
+# Encabezados precompilados
+*.gch
+*.pch
+
+# Bibliotecas
+*.lib
+*.a
+*.la
+*.lo
+
+# Objetos compartidos (incluidas las DLL de Windows)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Ejecutables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Resultados de la compilación del módulo del kernel
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# El icono debe terminar con dos \r
+Icono
+
+
+# Miniaturas
+._*
+
+# Archivos que podrían aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.ElementosTemporales
+.Papeleras
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en el recurso compartido remoto de AFP
+.AppleDB
+.AppleDesktop
+Carpeta de papelera de red
+Elementos temporales
+.apdisk
+
+### Parche para macOS ###
+# Archivos generados por iCloud
+*.icloud
+
+### Código de Visual Studio ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Historial local para Visual Studio Code
+.history/
+
+# Extensiones de Visual Studio Code creadas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historial
+.iónido
+
+# Fin de https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,c
